@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sendgrid/sendgrid": "^7.2",
+        "eonasdan/bootstrap-datetimepicker": "^4.17"
+    }
+}

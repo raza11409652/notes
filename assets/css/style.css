@@ -1,0 +1,260 @@
+/*
+4f359b-ffffff-ee4266-ffd23f-2274a5
+*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar{
+    position: fixed;
+    display: block;
+    padding: 1rem 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #4f359b;
+    z-index: 99999;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+.navbar .navbar-brand{
+    color: #ffffff;
+}
+.navbar-nav>.nav-item>.nav-link{
+    margin-inline-end: 1rem;
+}
+
+ .padding-right{
+    padding-right: 16px !important;
+}
+.primary-text{
+    color: #4F359B !important;
+}
+.btn{
+    text-transform: uppercase;
+}
+.btn-outline-white{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.btn-outline-white:hover{
+    background: #ffffff;
+    color: #4F359B !important;
+}
+.btn-outline-prim{
+    border: 1px solid #4F359B;
+    color: #4F359B;
+}
+.btn-outline-prim:hover{
+    background: #4F359B;
+    color: #ffffff;
+}
+.btn-outline-sec{
+    border: 1px solid #EE4266;
+    color: #EE4266;
+}
+.btn-outline-sec:hover{
+    background: #EE4266;
+    color: #ffffff;
+}
+.btn-outline-yellow{
+    border: 1px solid #ffd23f;
+    color: #ffd23f;
+}
+.btn-outline-yellow:hover{
+    background: #ffd23f;
+    color: #fff;
+}
+.login-wrapper , .register-wrapper , .forget-wrapper {
+    background: #ffffff;
+    min-block-size: calc(100vh);
+    padding: 10rem 0;
+}.entry-wrapper{
+    padding:8rem 0;
+    min-height: calc(100vh);
+    background: #ffffff;
+}
+.verify-wrapper{
+    background: #ffffff;
+    min-block-size: calc(100vh);
+    padding: 10rem 0;
+}.center-allign{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.paper {
+    border: 1px solid #ffd23f;
+    width: 100%;
+    background-color: #ffc1075d;   
+    padding: 4px;
+    border-radius: 4px;
+    color: #000000;
+  /*box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);*/
+  }
+  .paper:hover{
+      box-shadow: none;
+      border: 1px solid #4F359B;
+      outline: none !important;
+  }
+  .paper textarea{
+      line-height: 2.5rem;
+      font-size: 18px;
+      width: 100%;
+      background: transparent;
+      border: 0px;
+      outline: none;
+  }
+  .paper textarea::placeholder{
+      font-size: 48px;
+      color: #555555;
+      text-transform: capitalize;
+  }
+  .paper .card{
+      border: 0px !important;
+      background: none !important;
+  }
+  .paper .card .card-header{
+      background: none !important;
+      border: 0px !important;
+  }
+  .paper .card .card-header .btn-link{
+      color: #EE4266 !important;
+  }
+  .paper .card .card-header .btn-link:hover ,.paper .card .card-header .btn-link:visited,.paper .card .card-header .btn-link:active,
+  .paper .card .card-header .btn-link:focus{
+      color: #EE4266;
+      text-decoration: none;
+  }
+  .paper .card .card-body{
+      padding: 0.5rem 2rem;
+  }
+  .login-form , .register-form ,.forget-form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+  }
+  .login-form .form , .register-form .form , .forget-form .form{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    width: 560px;
+    background: #fff;
+    border-radius: 6px;
+    position: relative;
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-bottom: 55px;
+    padding-top: 55px;
+  }
+  .padding-default{
+      padding: 10px  0px 18px 0px;
+  }
+  .margin-top{
+      margin-top: 10px !important;
+  }
+  .margin-bottom {
+      margin-bottom: 10px;
+  }
+  .login-form>.form>.heading-text , .register-form>.form>.heading-text,.forget-form>.form>.heading-text{
+    padding-bottom: 32px;
+    font-size: 30px;
+    color: #555555;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    display: block;
+  }
+  .hide{
+      display: none;
+  }
+  
+  .loader {
+    margin: 6px;
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #7952b3; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+body.swal2-toast-shown .swal2-container.swal2-top-end, body.swal2-toast-shown .swal2-container.swal2-top-right {
+    top: 5rem !important;
+    right: 0;
+    bottom: auto;
+    left: auto;
+}
+.picker__frame{
+    position: absolute !important;
+    top: 10% !important;
+}
+
+.switch-field {
+      overflow: hidden;
+      position: relative;
+  }
+  
+  .switch-field input {
+      position: absolute !important;
+      clip: rect(0, 0, 0, 0);
+      height: 1px;
+      width: 1px;
+      border: 0;
+      overflow: hidden;
+  }
+  
+  .switch-field label {
+    float: left;
+  }
+  
+  .switch-field label {
+    display: inline-block;
+    width: 60px;
+    background-color: #ffffff;
+    color:#4F359B;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: none;
+    padding: 6px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    transition:         all 0.1s ease-in-out;
+  }
+  
+  .switch-field label:hover {
+      cursor: pointer;
+  }
+  
+  .switch-field input:checked + label {
+    background-color: #EE4266;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #f3f3f3;
+  }
+  
+  .switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+  }
+  #note-keeper-container .card {
+      background: #7952b336;
+      border: 0 !important;
+      box-shadow: 0 10px 6px 0 rgba(0,0,0,0.2);
+      margin-bottom: 16px;
+  }
